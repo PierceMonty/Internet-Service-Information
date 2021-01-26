@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+ 
+    "name": "Internet Service Details", 
+    "description": "A convinient tool which displays internet related information. 'Useful!' -Kanye West, 2021",
+	"version": "1.1",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+     ]
+}
